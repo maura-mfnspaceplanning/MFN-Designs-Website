@@ -1,0 +1,9 @@
+packages:
+  "framer-motion": "For smooth scroll reveal animations and elegant transitions"
+  "react-hook-form": "For contact form state management"
+  "@hookform/resolvers": "For Zod schema validation in the contact form"
+
+notes:
+  - "The API client is imported directly from @workspace/api-client-react"
+  - "We are using standard stock images from Unsplash for the hero and portfolio via HTML comments and URLs"
+  - "The design implements a forced dark theme for the sleek luxury aesthetic"

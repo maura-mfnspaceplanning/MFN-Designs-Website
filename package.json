@@ -1,0 +1,9 @@
+{
+  "name": "mfn-designs-website",
+  "private": true,
+  "packageManager": "pnpm@10.12.4",
+  "scripts": {
+    "build": "pnpm --filter @workspace/mfn-designs build",
+    "typecheck": "pnpm --filter @workspace/mfn-designs typecheck"
+  }
+}
