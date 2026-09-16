@@ -14,6 +14,7 @@ Cloudflare Pages settings:
 - Build command: `pnpm install --frozen-lockfile && pnpm build`
 - Build output directory: `artifacts/mfn-designs/dist/public`
 - Root directory: `/`
+- Environment variable: `NODE_VERSION` = `22` (Vite 7 needs Node 20+; the Pages default is older)
 
 The contact form is handled by `functions/api/contact.ts`. Configure these Pages secrets before testing it:
 
