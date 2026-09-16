@@ -5,5 +5,9 @@
   "scripts": {
     "build": "pnpm --filter @workspace/mfn-designs build",
     "typecheck": "pnpm --filter @workspace/mfn-designs typecheck"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "typescript": "~5.9.2"
   }
 }
